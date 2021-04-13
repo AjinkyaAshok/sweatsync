@@ -34,11 +34,11 @@ class Demo extends Component {
         <section className="transition">
           <h1>The world needs you now, more than ever</h1>
           <section className="inline">
-            Transform lives with your
+            Transform lives with your 
             <ReactTextTransition
               text={texts[this.state.textIndex % texts.length]}
               springConfig={presets.gentle}
-              style={{ margin: "0 4px" }}
+              style={{ margin: "0 10px" }}
               inline
             />
             !

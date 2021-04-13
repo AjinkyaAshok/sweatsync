@@ -10,10 +10,18 @@ import 'reactjs-popup/dist/index.css';
 function Forgot() {
   const [reset, setReset] = useState("");
 
+  var actionCodeSettings = {
+    // After password reset, the user will be give the ability to go back
+    // to this page.
+    url: 'http://localhost:3000',
+    // url:'https://real-steel-fitness.herokuapp.com/join'
+    handleCodeInApp: false
+  };
+
   const resetP = (e) => {
     e.preventDefault();
     auth
-      .sendPasswordResetEmail(reset)
+      .sendPasswordResetEmail(reset, actionCodeSettings)
       .then((auth) => {
           // history.push("/");
         window.alert("Your password reset email has been sent");
@@ -48,14 +56,10 @@ function Forgot() {
       </div>
       </form>
      
-     
-  
+
       <Down />
     </div>
   );
 }
 
 export default Forgot;
-
-
-
