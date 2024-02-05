@@ -68,7 +68,3 @@ function Cards() {
 }
 
 export default Cards;
-
-// const Div = styled.div``
-// // `margin:5px;
-// // `

@@ -1,12 +1,10 @@
 import React from "react";
 import Headerplus from "./components/Headerplus";
 import Down from "./components/Down";
-import Payment from "../src/components/Payment";
 import myimage1 from "./components/images/steve-halama-dkg-zps94uw-unsplash.jpg";
 import myimage2 from "./components/images/conscious-design-OK7_RBq0VHI-unsplash.jpg";
 import myimage3 from "./components/images/jared-rice-NTyBbu66_SI-unsplash.jpg";
 import myimage4 from "./components/images/joshua-jordan-ZfiV8EgglsY-unsplash.jpg";
-import Transitions from "./components/Transitions";
 
 
 function WorkoutPlans() {
