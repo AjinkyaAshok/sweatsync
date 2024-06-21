@@ -3,7 +3,7 @@ import Headerplus from "./components/Headerplus";
 import Down from "./components/Down";
 import { auth } from "./firebase";
 import "./login.css";
-import Popup from 'reactjs-popup';
+// import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 
 
