@@ -7,6 +7,7 @@ import Trials from "./Trials";
 import ContactUs from "./ContactUs";
 import Join from "./Join";
 import Forgot from "./forgot";
+import "./index.css";
 // import { useEffect } from "react";
 // import { auth } from "./firebase";
 

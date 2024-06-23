@@ -1,5 +1,5 @@
 import React from "react";
-import Headerplus from "./components/Headerplus";
+import Headerplus from "./components/Header";
 import Down from "./components/Down";
 import myimage1 from "./components/images/steve-halama-dkg-zps94uw-unsplash.jpg";
 import myimage2 from "./components/images/conscious-design-OK7_RBq0VHI-unsplash.jpg";

@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.caveat-unique-class {
+  @apply font-caveat font-normal;
+  font-optical-sizing: auto;
+}
+
+.caveat-weight-400 {
+  font-weight: 400;
+}

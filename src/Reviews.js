@@ -1,5 +1,5 @@
 import React from "react";
-import Headerplus from "./components/Headerplus";
+import Headerplus from "./components/Header";
 import Down from "./components/Down";
 import myimage from "./components/images/cedric.png";
 import myimage1 from "./components/images/scott.png";

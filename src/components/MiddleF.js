@@ -5,43 +5,38 @@ import myimage3 from "./images/dumbbell.svg";
 
 function MiddleF() {
   return (
-    <div
-      id="carouselExampleControls"
-      class="carousel slide col-lg-12"
-      data-ride="carousel"
-    >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          {/* <img src="..." class="d-block w-100" alt="..."> */}
-          <p class="carosusel-para">
-            We're leading a movement to fight inactivity-related diseases by
-            helping people achieve sustainable life changes that lead to more
-            active, healthier lives.
-          </p>
+    <div className="px-16 py-20 shadow-md">
+      <div className="flex p-10 justify-evenly">
+      <img className="h-20" src={myimage}></img>
+        <p className="w-7/12">
+          We're leading a movement to fight inactivity-related diseases by
+          helping people achieve sustainable life changes that lead to more
+          active, healthier lives.
+        </p>
 
-          <img class="cara-img" src={myimage}></img>
-        </div>
-
-        <div class="carousel-item">
-          {/* <img src="..." class="d-block w-100" alt="..."> */}
-          <p class="carosusel-para">
-            Our NCCA-accredited Certification Programs set the highest industry
-            standards and elevate the role of exercise professionals and health
-            coaches in their community.
-          </p>
-          <img class="cara-img" src={myimage2}></img>
-        </div>
-        <div class="carousel-item">
-          {/* <img src="..." class="d-block w-100" alt="..."> */}
-          <p class="carosusel-para">
-            As a leading nonprofit, we are proud to advocate for policies that
-            protect certified professionals and make physical activity more
-            accessible to people everywhere.
-          </p>
-          <img class="cara-img" src={myimage3}></img>
-        </div>
+        
       </div>
-      <a
+
+      <div className="flex p-10 justify-evenly">
+        <p className="w-7/12">
+          Our NCCA-accredited Certification Programs set the highest industry
+          standards and elevate the role of exercise professionals and health
+          coaches in their community.
+        </p>
+        <img className="h-20"  src={myimage2}></img>
+      </div>
+
+      <div className="flex p-10 justify-evenly">
+      <img className="h-20"  src={myimage3}></img>
+        <p className="w-7/12">
+          As a leading nonprofit, we are proud to advocate for policies that
+          protect certified professionals and make physical activity more
+          accessible to people everywhere.
+        </p>
+       
+      </div>
+
+      {/* <a
         class="carousel-control-prev"
         href="#carouselExampleControls"
         role="button"
@@ -58,7 +53,7 @@ function MiddleF() {
       >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
-      </a>
+      </a> */}
     </div>
   );
 }

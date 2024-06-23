@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Headerplus from "./components/Headerplus";
+import Headerplus from "./components/Header";
 import Down from "./components/Down";
 import LinearBuffer from "./components/Buffer";
 import FitnessCenterIcon from "@material-ui/icons/FitnessCenter";
