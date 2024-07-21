@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import myimage from "./images/barbell.svg";
 import myimage2 from "./images/coach.svg";
@@ -5,7 +6,7 @@ import myimage3 from "./images/dumbbell.svg";
 
 function MiddleF() {
   return (
-    <div className="px-16 py-20 shadow-md">
+    <div className="px-16 py-20 shadow-2xl shadow-neutral-300">
       <div className="flex p-10 justify-evenly">
       <img className="h-20" src={myimage}></img>
         <p className="w-7/12">

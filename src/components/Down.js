@@ -1,9 +1,9 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 
-import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import CallIcon from "@material-ui/icons/Call";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
-import EqualizerIcon from "@material-ui/icons/Equalizer";
 import myimage1 from "./images/running.svg";
 
 function Down() {
@@ -48,7 +48,7 @@ function Down() {
         </div>
       </footer>
 
-      <a href="http://www.linkedin.in/in/ajinkyaa">
+      <a href="http://www.linkedin.in/in/ajinkyaa" target="_blank" rel="noreferrer">
         <p class="text-center">-Ajinkya Ashok</p>
       </a>
     </div>

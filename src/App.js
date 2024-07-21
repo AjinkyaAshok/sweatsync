@@ -1,13 +1,12 @@
 import Home from "./Home";
 // import WorkoutPlans from "./WorkoutPlans";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import WorkoutPlans from "./WorkoutPlans";
 import Reviews from "./Reviews";
 import Trials from "./Trials";
-import ContactUs from "./ContactUs";
-import Join from "./Join";
 import Forgot from "./forgot";
 import "./index.css";
+import Profile from "./Profile";
 // import { useEffect } from "react";
 // import { auth } from "./firebase";
 
@@ -40,11 +39,8 @@ function App() {
           <Route path="/trials">
             <Trials />
           </Route>
-          <Route path="/contactus">
-            <ContactUs />
-          </Route>
           <Route path="/join">
-            <Join />
+            <Profile />
           </Route>
           <Route path="/forgot">
             <Forgot />

@@ -55,7 +55,7 @@ class Demo extends Component {
         <div class="row">
         <div class="text-center card col trans_text">
         <section class="card-body">
-          {/* <h2>Delay prop.</h2> */}
+        
           <section className="inline">
             <ReactTextTransition
               text={texts[this.state.textIndex % texts.length]}
@@ -73,7 +73,7 @@ class Demo extends Component {
         </div>
         <div class="text-center card col trans_text">
         <section class="card-body">
-          {/* <h2>Delay prop.</h2> */}
+
           <section className="inline">
             <ReactTextTransition
               text={texts[this.state.textIndex % texts.length]}

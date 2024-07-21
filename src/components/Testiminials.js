@@ -7,7 +7,6 @@ function Testinimial() {
     <div class="testinomials-2">
       
         <div class="test-img-2">
-          {" "}
           <img src={myimage} alt="testinomials.png"></img>
         </div>
         <div class="test-text-2">

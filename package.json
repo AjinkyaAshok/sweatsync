@@ -13,7 +13,7 @@
     "ajv": "^6.12.6",
     "ajv-keywords": "^3.5.2",
     "bootstrap": "^4.6.0",
-    "firebase": "^8.3.1",
+    "firebase": "^8.10.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-native-upi-pay": "^1.0.8",

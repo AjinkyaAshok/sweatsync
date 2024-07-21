@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import Headerplus from "./components/Header";
 import Down from "./components/Down";
@@ -11,89 +12,6 @@ function WorkoutPlans() {
   return (
     <div>
       <Headerplus />
-      
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       {/* <Payment /> */}
       <div class="row">
         <div class="col-lg-4">
