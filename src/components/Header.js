@@ -5,8 +5,6 @@ import { Link } from "react-router-dom";
 import { auth } from "../firebase";
 import { useHistory } from "react-router-dom";
 
-
-
 function Header() {
   const history = useHistory();
   const [email, setEmail] = useState("");
@@ -54,47 +52,39 @@ function Header() {
   };
 
   return (
-    <nav class="p-3 shadow-md  ">
-      <div className="flex justify-center">
-        {/* <img
-          className="col-span-1 h-8 ml-2 justify-self-center"
-          src={myimage}
-        ></img> */}
-        <p className="font-semibold text-2xl justify-self-center mr-6">
-          Sweat Sync
-        </p>
+    <div className="flex items-center justify-around mt-6 mx-6 ">
+      <p className="font-bold text-2xl #FE7F24">SWEAT SYNC</p>
 
-        <ul class="flex gap-0 justify-self-center">
-          <li className="px-2 py-1  hover:bg-gray-200 hover:rounded-sm">
+      <nav class=" bg-slate-100 rounded-full w-2/6 text-lg  mx-auto shadow-sm h-12">
+        <ul class="flex justify-between m-0.5">
+          <li className=" hover:bg-white hover:rounded-3xl py-2 px-8 ">
             <Link to="/">
               Home <span class="sr-only">(current)</span>
             </Link>
           </li>
-          <li className="px-2 py-1  hover:bg-gray-200 hover:rounded-sm">
+          <li className=" hover:bg-white hover:rounded-3xl py-2 px-8">
             <Link to="/workoutplans">Plans</Link>
           </li>
-          <li className="px-2 py-1  hover:bg-gray-200 hover:rounded-sm">
+          <li className=" hover:bg-white hover:rounded-3xl py-2 px-8">
             <Link to="/reviews">Reviews</Link>
           </li>
-          <li className="px-2 py-1  hover:bg-gray-200 hover:rounded-sm">
+          <li className="  hover:bg-white hover:rounded-3xl py-2 px-8 ">
             <Link to="/trials">Trials</Link>
           </li>
-      
-          <li className="px-2 py-1  hover:bg-gray-200 hover:rounded-sm">
-            <Link
-              type="button"      
-              data-toggle="modal"
-              data-target="#exampleModal1"
-              to="/join"
-            >
-             Profile
-            </Link>
-          </li>
         </ul>
-      </div>
+      </nav>
 
-     
-    </nav>
+      <button className=" hover:shadow-inner bg-slate-300  rounded-full py-2.5 px-9 hover:transform transition duration-250 hover:scale-95">
+        <Link
+          type="button"
+          data-toggle="modal"
+          data-target="#exampleModal1"
+          to="/join"
+        >
+          Join
+        </Link>
+      </button>
+    </div>
   );
 }
 

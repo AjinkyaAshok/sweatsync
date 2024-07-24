@@ -9,7 +9,7 @@ import TextTransition from "./components/TextTransition";
 
 function Home() {
   return (
-    <div className="bg-neutral00">
+    <div className="bg-bla">
       <Header />
       <TextTransition />
       <Video />

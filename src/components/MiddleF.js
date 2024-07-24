@@ -6,14 +6,14 @@ import myimage3 from "./images/dumbbell.svg";
 
 function MiddleF() {
   return (
-    <div className="px-16 py-20 shadow-2xl shadow-neutral-300">
+    <div className="  bg-slate-100 w-8/12 mx-auto mt-10 rounded-xl ">
       <div className="flex p-10 justify-evenly">
-      <img className="h-20" src={myimage}></img>
         <p className="w-7/12">
           We're leading a movement to fight inactivity-related diseases by
           helping people achieve sustainable life changes that lead to more
           active, healthier lives.
         </p>
+      <img className="h-20" src={myimage}></img>
 
         
       </div>
