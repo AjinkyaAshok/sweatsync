@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import WorkoutPlans from "./WorkoutPlans";
 import Reviews from "./Reviews";
 import Trials from "./Trials";
-import Forgot from "./forgot";
+import Forgot from "./Forgot";
 import "./index.css";
 import Profile from "./Profile";
 // import { useEffect } from "react";

@@ -55,11 +55,11 @@ function Header() {
     <div className="flex items-center justify-around mt-6 mx-6 ">
       <p className="font-bold text-2xl #FE7F24">SWEAT SYNC</p>
 
-      <nav class=" bg-slate-100 rounded-full w-2/6 text-lg  mx-auto shadow-sm h-12">
-        <ul class="flex justify-between m-0.5">
+      <nav className=" bg-slate-100 rounded-full w-2/6 text-lg  mx-auto shadow-sm h-12">
+        <ul className="flex justify-between m-0.5">
           <li className=" hover:bg-white hover:rounded-3xl py-2 px-8 ">
             <Link to="/">
-              Home <span class="sr-only">(current)</span>
+              Home <span className="sr-only">(current)</span>
             </Link>
           </li>
           <li className=" hover:bg-white hover:rounded-3xl py-2 px-8">

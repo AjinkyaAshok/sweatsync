@@ -13,34 +13,34 @@ function Down() {
         <div className=" text-center">
           <img src={myimage1} className="h-8 mx-auto"></img>
 
-          <small class="d-block mb-3 text-muted">&copy; 2020-2021</small>
+          <small className="d-block mb-3 text-muted">&copy; 2020-2021</small>
         </div>
 
-        <div class="col-6 col-md">
+        <div className="col-6 col-md">
           <h5>Home</h5>
-          <ul class="list-unstyled text-small">
+          <ul className="list-unstyled text-small">
             <li>
-              <a class="text-muted" href="#">
+              <a className="text-muted" href="#">
                 Workout Plans
               </a>
             </li>
             <li>
-              <a class="text-muted" href="#">
+              <a className="text-muted" href="#">
                 Reviews
               </a>
             </li>
           </ul>
         </div>
 
-        <div class="col-6 col-md">
-          <ul class="list-unstyled text-small">
+        <div className="col-6 col-md">
+          <ul className="list-unstyled text-small">
             <li>
-              <h6 class="text-muted" href="#">
+              <h6 className="text-muted" href="#">
                 <MailOutlineIcon /> real@fitness.com
               </h6>
             </li>
             <li>
-              <h6 class="text-muted" href="#">
+              <h6 className="text-muted" href="#">
                 <CallIcon /> 9090909090
               </h6>
             </li>
@@ -49,7 +49,7 @@ function Down() {
       </footer>
 
       <a href="http://www.linkedin.in/in/ajinkyaa" target="_blank" rel="noreferrer">
-        <p class="text-center">-Ajinkya Ashok</p>
+        <p className="text-center">-Ajinkya Ashok</p>
       </a>
     </div>
   );

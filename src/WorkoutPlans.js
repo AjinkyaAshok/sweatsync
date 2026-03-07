@@ -13,15 +13,15 @@ function WorkoutPlans() {
     <div>
       <Headerplus />
       {/* <Payment /> */}
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="card card-workout">
-            <h5 class="card-header">
+      <div className="row">
+        <div className="col-lg-4">
+          <div className="card card-workout">
+            <h5 className="card-header">
               The Introduction/Transition workout plan
             </h5>
-            <div class="card-body">
-              <img src={myimage1} class="img-workout" />
-              <p class="card-text">
+            <div className="card-body">
+              <img src={myimage1} className="img-workout" />
+              <p className="card-text">
                 The Introduction/Transition from Mike Beringer is one of those
                 plans that you can start with as a beginner, but still find
                 strategically useful as you become more advanced. The exercises
@@ -32,23 +32,23 @@ function WorkoutPlans() {
                 because it can serve as a de-load or taper. 
               </p>
 
-              <h6 class="card-title">
+              <h6 className="card-title">
                 Goal: weight management, muscle maintenance,
                 “tapering/de-loading”
               </h6>
-              {/* <a href="#" class="btn btn-dark">
+              {/* <a href="#" className="btn btn-dark">
                 Go somewhere
               </a> */}
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="card card-workout">
-            <h5 class="card-header">The 6-week Unlabeled workout plan</h5>
-            <div class="card-body">
-              <img src={myimage2} class="img-workout" />
+        <div className="col-lg-4">
+          <div className="card card-workout">
+            <h5 className="card-header">The 6-week Unlabeled workout plan</h5>
+            <div className="card-body">
+              <img src={myimage2} className="img-workout" />
 
-              <p class="card-text">
+              <p className="card-text">
                 The Unlabeled plan was created for a couple reasons. We wanted
                 to do something raw. Something without a production crew and all
                 that production stuff. No worrying about lighting, or clothing,
@@ -58,23 +58,23 @@ function WorkoutPlans() {
                 longevity.
               </p>
 
-              <h6 class="card-title">
+              <h6 className="card-title">
                 Goal: blend of strength, muscle building, fat loss, and athletic
                 enhancement
               </h6>
-              {/* <a href="#" class="btn btn-dark">
+              {/* <a href="#" className="btn btn-dark">
                 Go somewhere
               </a> */}
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="card card-workout">
-            <h5 class="card-header">The 4-week Bulk-up workout plan</h5>
-            <div class="card-body">
-              <img src={myimage3} class="img-workout" />
+        <div className="col-lg-4">
+          <div className="card card-workout">
+            <h5 className="card-header">The 4-week Bulk-up workout plan</h5>
+            <div className="card-body">
+              <img src={myimage3} className="img-workout" />
 
-              <p class="card-text">
+              <p className="card-text">
                 The Bulk-up plan is the counter to the Trim-up plan. In the
                 winter we bulk and in the spring we cut. The Bulk-up has been
                 one of Tim’s go-to plans when looking to quickly and effectively
@@ -83,22 +83,22 @@ function WorkoutPlans() {
                 top-performing plans on HFP.
               </p>
 
-              <h6 class="card-title">Goal: increase muscle-mass, fat loss</h6>
-              {/* <a href="#" class="btn btn-dark">
+              <h6 className="card-title">Goal: increase muscle-mass, fat loss</h6>
+              {/* <a href="#" className="btn btn-dark">
                 Go somewhere
               </a> */}
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="card card-workout">
-            <h5 class="card-header">
+        <div className="col-lg-4">
+          <div className="card card-workout">
+            <h5 className="card-header">
               The 3-week Super-3 strength workout plan
             </h5>
-            <div class="card-body">
-              <img src={myimage4} class="img-workout" />
+            <div className="card-body">
+              <img src={myimage4} className="img-workout" />
 
-              <p class="card-text">
+              <p className="card-text">
                 Wratt Krueger identifies “holes” or weaknesses and eliminates
                 them. While the Super-3 plan is built around the main
                 strength-building exercises: the squat, press, and deadlift,
@@ -108,9 +108,9 @@ function WorkoutPlans() {
                 caught your attention, click the title above to see how this all
                 works.
               </p>
-              <h5 class="card-title">Goal: increase strength</h5>
+              <h5 className="card-title">Goal: increase strength</h5>
 
-              {/* <a href="#" class="btn btn-dark">
+              {/* <a href="#" className="btn btn-dark">
                 Go somewhere
               </a> */}
             </div>

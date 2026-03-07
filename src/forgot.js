@@ -10,11 +10,10 @@ import 'reactjs-popup/dist/index.css';
 function Forgot() {
   const [reset, setReset] = useState("");
 
-  var actionCodeSettings = {
+  const actionCodeSettings = {
     // After password reset, the user will be give the ability to go back
     // to this page.
-    url: 'http://localhost:3000',
-    // url:'https://real-steel-fitness.herokuapp.com/join'
+    url: window.location.origin,
     handleCodeInApp: false
   };
 
@@ -30,27 +29,27 @@ function Forgot() {
   };
 
   return (
-    <div class='opacity'>
+    <div className='opacity'>
       <Headerplus />
 
      
-{/* <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+{/* <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
   Launch demo modal
 </button> */}
 
 
       <form>
       <div className="forget__container form-group">
-      <label for="exampleInputEmail1">Email address</label>
+      <label htmlFor="exampleInputEmail1">Email address</label>
         <input
-          class="form-control"
+          className="form-control"
           id="exampleInputEmail1"
           aria-describedby="emailHelp"
-          type="text"
+          type="email"
           value={reset}
           onChange={(e) => setReset(e.target.value)}
         ></input>
-        <button class="btn btn-dark btn__forgot" onClick={resetP} type="submit">
+        <button className="btn btn-dark btn__forgot" onClick={resetP} type="submit">
           Submit
         </button>
       </div>

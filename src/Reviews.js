@@ -9,15 +9,15 @@ function Reviews() {
     <div>
       <Headerplus />
       <div>
-        <div class="media">
+        <div className="media">
           <img
             src={myimage1}
-            class="align-self-center mr-3 img-reviews"
+            className="align-self-center mr-3 img-reviews"
             alt="..."
           ></img>
-          <div class="media-body">
-            <h5 class="mt-0">Scott Goudeseune</h5>
-            <p class="mt-0">
+          <div className="media-body">
+            <h5 className="mt-0">Scott Goudeseune</h5>
+            <p className="mt-0">
               Chief Executive Officer, American Council on Exercise
             </p>
             <p>
@@ -32,15 +32,15 @@ function Reviews() {
         </div>
       </div>
       <div>
-        <div class="media">
+        <div className="media">
           <img
             src={myimage}
-            class="align-self-center mr-3 img-reviews"
+            className="align-self-center mr-3 img-reviews"
             alt="..."
           ></img>
-          <div class="media-body">
-            <h5 class="mt-0">Cedric X. Bryant, PhD, FACSM</h5>
-            <p class="mt-0">
+          <div className="media-body">
+            <h5 className="mt-0">Cedric X. Bryant, PhD, FACSM</h5>
+            <p className="mt-0">
               President & Chief Science Officer, American Council on Exercise
             </p>
             <p>
@@ -55,15 +55,15 @@ function Reviews() {
         </div>
       </div>
       <div>
-        <div class="media">
+        <div className="media">
           <img
             src={myimage1}
-            class="align-self-center mr-3 img-reviews"
+            className="align-self-center mr-3 img-reviews"
             alt="..."
           ></img>
-          <div class="media-body">
-            <h5 class="mt-0">Top-aligned media</h5>
-            <p class="mt-0">
+          <div className="media-body">
+            <h5 className="mt-0">Top-aligned media</h5>
+            <p className="mt-0">
               Chief Executive Officer, American Council on Exercise
             </p>
             <p>

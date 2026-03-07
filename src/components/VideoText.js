@@ -4,7 +4,7 @@ import myimage4 from '../components/images/jennifer-burk-ECXB0YAZ_zU-unsplash.jp
 function VideoText() {
   return (
     <div>
-      <img src={myimage4} class="video-text"/>
+      <img src={myimage4} className="video-text" alt="Fitness motivation"/>
     </div>
   );
 }
